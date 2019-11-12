@@ -6,6 +6,12 @@ function setup() {
   canvas = createCanvas(canvasWidth, canvasHeight);
   canvas.position(windowWidth/2 - canvasWidth/2, 20);
   noCursor();
+  fill(0);
+textAlign(CENTER);
+text('Click to create a new sprite', width/2, height/2);
+//draw all the sprites added to the sketch so far
+//the positions will be updated automatically at every cycle
+drawSprites();
 }
 
 function draw() {
