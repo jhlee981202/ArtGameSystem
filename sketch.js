@@ -21,6 +21,30 @@ function draw()
  text('해양쓰레기',100,100)
  }
   if(time>10 && time<20){
-  text('멸치',100,100) || text('날치',100,100)
+  text('멸치',100,100)
+  }
+  if(time>20&& time<30){
+  text('고등어',100,100)
+  }
+  if(time>30 && time<40){
+  text('갈치',100,100)
+  }
+  if(time>40 && time<50){
+  text('광어',100,100)
+  }
+  if(time>50 && time<60){
+  text('돔',100,100)
+  }
+  if(time>90 && time<100){
+  text('참치',100,100)
+  }
+  if(time>130 && time<140){
+  text('상어',100,100)
+  }
+  if(time>170 && time<190){
+  text('고래',100,100)
+  }
+  if(time>190){
+  text('바다의 신',100,100)
   }
 }
