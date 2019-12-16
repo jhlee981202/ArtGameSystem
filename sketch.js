@@ -1,14 +1,23 @@
-let canvas;
-let canvasWidth = 600;
-let canvasHeight = 400;
+let time =0;
 
-function setup() {
-  canvas = createCanvas(canvasWidth, canvasHeight);
-  canvas.position(windowWidth/2 - canvasWidth/2, 20);
-  noCursor();
+function setup()
+{
+  createCanvas(500,500);
 }
 
-function draw() {
-  background(30);
-  ellipse(mouseX, mouseY, 100, 100);
+function draw()
+{
+  background(255);
+  textAlign(CENTER);
+  textSize(50);
+  text(time,width/2,height/2);
+
+
+
+  if (frameCount % 60 == 0 && time >= 0 && mouseIsPressed) {
+    time ++;
+  }
+ if(time>10 && time<20){
+ text('멸치',100,100)
+ }
 }
