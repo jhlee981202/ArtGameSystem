@@ -16,7 +16,7 @@ function draw()
   textAlign(CENTER);
   textSize(50);
   text(time,width/2,height/2);
-  text('마우스를 꾹 누르세요.\n 떼면 시간이 멈춥니다',200,400)
+  text('마우스를 꾹 누르세요.\n 떼면 시간이 멈춥니다',width/2,height/2+100)
 
 
 
