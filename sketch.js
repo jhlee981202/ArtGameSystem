@@ -1,8 +1,13 @@
 let time =0;
 
-function setup()
-{
-  createCanvas(500,500);
+
+let canvas;
+let canvasWidth = 600;
+let canvasHeight = 400;
+
+function setup() {
+  canvas = createCanvas(canvasWidth, canvasHeight);
+  canvas.position(windowWidth/2 - canvasWidth/2, 20);
 }
 
 function draw()
